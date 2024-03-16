@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+
+  flask:
+    build: .
+    command: "python main.py"
+    ports:
+      - "8000:8000"
+    environment:
+      - MYSQL_ROOT_PASSWORD=my_secret_pw
+
+  mysql:
+    image: "mysql"
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=my_secret_pw
