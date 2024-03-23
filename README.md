@@ -4,7 +4,7 @@
 Download python 3.6 on the machine using the following link https://www.python.org/ftp/python/3.6.8/python-3.6.8-macosx10.9.pkg which will download python 3.6.8 for macOS.
 
 ### Version Control
-Clone sp-auction-service from repository-url by running :-
+Clone repo from repository-url by running :-
 * `git clone -b development https://github.com/13AbhishekJha/YoutubeApi.git`
 * `cd YoutubeApi`
 
